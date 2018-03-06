@@ -1,0 +1,40 @@
+{
+    "name" : "Transpose",
+    "identifier" : "com.wescraig.sketch.transpose",
+    "version" : "1.0",
+    "description" : "Transpose your values after you copy paste",
+    "author" : "Wes Craig",
+    "commands" : [
+    {
+      "name" : "Transpose Vertical",
+      "identifier" : "transposeV",
+      "shortcut" : "command control [",
+      "script" : "main.js",
+      "handler" : "transposeVertical"
+    },
+    {
+      "name" : "Transpose Horizontal",
+      "identifier" : "transposeH",
+      "shortcut" : "command control ]",
+      "script" : "main.js",
+      "handler" : "transposeHorizontal"
+    },
+    {
+      "name" : "Settings",
+      "identifier" : "transposeSettings",
+      "shortcut" : "command control ;",
+      "script" : "main.js",
+      "handler" : "showSettings"
+    }
+
+  ],
+  "menu": {
+    "title" : "Transpose",
+    "items": [
+      "transposeV",
+      "transposeH",
+      "transposeSettings"
+    ]
+  }
+
+  }
