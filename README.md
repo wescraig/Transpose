@@ -1,5 +1,5 @@
 # Transpose verson 1.0
-Tranpose your selection and set pixel margins between elements.
+Transpose your selection and set pixel margins between elements.
 
 ## Horizontally Transpose Vertical Elements
 
