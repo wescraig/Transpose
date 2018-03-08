@@ -1,4 +1,4 @@
-# Transpose verson 1.0
+# Transpose for Sketch verson 1.0
 Transpose your selection and set pixel margins between elements.
 
 ## Horizontally Transpose Vertical Elements
